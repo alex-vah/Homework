@@ -13,7 +13,7 @@ foreach (var property in properties)
 }
 
 // Show fields
-FieldInfo[] fields = employeeType.GetFields(BindingFlags.NonPublic);
+FieldInfo[] fields = employeeType.GetFields();
 foreach (var field in fields)
 {
     Console.WriteLine($"Field: {field.Name}, Type: {field.FieldType}");
