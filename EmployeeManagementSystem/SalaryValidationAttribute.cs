@@ -1,6 +1,6 @@
 namespace EmployeeManagementSystem;
 
-[AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
+[AttributeUsage(AttributeTargets.All, AllowMultiple = false)]
 public class SalaryValidationAttribute:System.Attribute
 {
     public double MinimumSalary { get; }
