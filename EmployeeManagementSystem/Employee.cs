@@ -4,6 +4,7 @@ public class Employee
 {
     public int Id { get; set; }
     public string Name { get; set; }
+    [SalaryValidation(1000, 5000)]
     public double Salary { get; set; }
 
 
