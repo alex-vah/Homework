@@ -4,7 +4,7 @@ public class Employee
 {
     public int Id { get; set; }
     public string Name { get; set; }
-    [SalaryValidation(1000, 5000)]
+    [SalaryValidation(50000, 1000000)]//Applying SalaryValidationAttribute to the Salary property
     public double Salary { get; set; }
 
 
